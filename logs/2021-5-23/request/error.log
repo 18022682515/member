@@ -1,0 +1,537 @@
+[2021-05-23T10:51:16.381] [ERROR] request-error - [工作进程7164] ReferenceError: result is not defined
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:14:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-23T11:13:03.785] [ERROR] request-error - [工作进程3112] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T11:13:07.572] [ERROR] request-error - [工作进程3112] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T11:16:13.050] [ERROR] request-error - [工作进程3704] Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+    at Query.Sequence._packetToError (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\mysql.js:18:25
+    at Handshake.onConnect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Handshake._callback (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "select username from users where username = 'dengyu' or 1=1'"
+}
+[2021-05-23T11:27:27.905] [ERROR] request-error - [工作进程2616] Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dengyu‘’''' at line 1
+    at Query.Sequence._packetToError (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\mysql.js:18:25
+    at Ping.onOperationComplete (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:110:5)
+    at Ping.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Ping._callback (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:488:16)
+    at Ping.Sequence.end (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dengyu‘’''' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "select username from users where username=''dengyu‘’''"
+}
+[2021-05-23T11:27:46.605] [ERROR] request-error - [工作进程8500] Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dengyu‘’''' at line 1
+    at Query.Sequence._packetToError (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\mysql.js:18:25
+    at Handshake.onConnect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Handshake._callback (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dengyu‘’''' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "select username from users where username=''dengyu‘’''"
+}
+[2021-05-23T12:06:17.267] [ERROR] request-error - [工作进程2068] ReferenceError: username is not defined
+    at getUser (D:\Users\server-demo\member\router\user\signin.js:22:64)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:4:21)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+[2021-05-23T12:07:38.103] [ERROR] request-error - [工作进程24128] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T12:07:50.815] [ERROR] request-error - [工作进程24128] ReferenceError: username is not defined
+    at getUser (D:\Users\server-demo\member\router\user\signin.js:22:64)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:4:21)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+[2021-05-23T12:08:14.875] [ERROR] request-error - [工作进程20076] ReferenceError: username is not defined
+    at getUser (D:\Users\server-demo\member\router\user\signin.js:22:64)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:4:21)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+[2021-05-23T12:08:45.891] [ERROR] request-error - [工作进程1132] ReferenceError: username is not defined
+    at getUser (D:\Users\server-demo\member\router\user\signin.js:22:64)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:4:21)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+[2021-05-23T12:09:53.514] [ERROR] request-error - [工作进程1428] ReferenceError: username is not defined
+    at getUser (D:\Users\server-demo\member\router\user\signin.js:22:64)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:4:21)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+[2021-05-23T12:10:17.106] [ERROR] request-error - [工作进程1428] ReferenceError: username is not defined
+    at getUser (D:\Users\server-demo\member\router\user\signin.js:22:64)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:4:21)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+[2021-05-23T12:16:22.022] [ERROR] request-error - [工作进程14864] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T12:17:25.131] [ERROR] request-error - [工作进程11328] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T12:34:06.100] [ERROR] request-error - [工作进程25064] Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dengyu''' at line 1
+    at Query.Sequence._packetToError (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\mysql.js:18:25
+    at Handshake.onConnect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Handshake._callback (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dengyu''' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "select username from users where username=''dengyu''"
+}
+[2021-05-23T12:37:45.571] [ERROR] request-error - [工作进程25800] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T12:40:48.899] [ERROR] request-error - [工作进程12672] TypeError: Assignment to constant variable.
+    at getMysqlData (D:\Users\server-demo\member\router\user\signin.js:31:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async getUser (D:\Users\server-demo\member\router\user\signin.js:22:17)
+    at async module.exports (D:\Users\server-demo\member\router\user\signin.js:4:15)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-23T12:40:55.460] [ERROR] request-error - [工作进程12672] TypeError: Assignment to constant variable.
+    at getMysqlData (D:\Users\server-demo\member\router\user\signin.js:31:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async getUser (D:\Users\server-demo\member\router\user\signin.js:22:17)
+    at async module.exports (D:\Users\server-demo\member\router\user\signin.js:4:15)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-23T12:41:00.009] [ERROR] request-error - [工作进程12672] TypeError: Assignment to constant variable.
+    at getMysqlData (D:\Users\server-demo\member\router\user\signin.js:31:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async getUser (D:\Users\server-demo\member\router\user\signin.js:22:17)
+    at async module.exports (D:\Users\server-demo\member\router\user\signin.js:4:15)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-23T12:49:16.131] [ERROR] request-error - [工作进程1044] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T12:49:16.366] [ERROR] request-error - [工作进程1044] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T12:49:16.705] [ERROR] request-error - [工作进程1044] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T12:49:17.220] [ERROR] request-error - [工作进程1044] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T12:49:17.437] [ERROR] request-error - [工作进程1044] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T12:49:17.472] [ERROR] request-error - [工作进程1044] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T13:40:57.258] [ERROR] request-error - [工作进程5308] TypeError: Cannot read property 'username' of undefined
+    at module.exports (D:\Users\server-demo\member\router\user\login.js:5:54)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T13:41:17.156] [ERROR] request-error - [工作进程5308] TypeError: Cannot read property 'username' of undefined
+    at module.exports (D:\Users\server-demo\member\router\user\login.js:5:54)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T13:42:01.725] [ERROR] request-error - [工作进程15784] TypeError: Cannot read property 'username' of undefined
+    at module.exports (D:\Users\server-demo\member\router\user\login.js:5:54)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T13:42:40.138] [ERROR] request-error - [工作进程20456] TypeError: Cannot read property 'username' of undefined
+    at module.exports (D:\Users\server-demo\member\router\user\login.js:5:54)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:15)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T13:43:35.100] [ERROR] request-error - [工作进程19548] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T13:43:37.824] [ERROR] request-error - [工作进程19548] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T13:48:31.916] [ERROR] request-error - [工作进程14692] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T13:55:04.187] [ERROR] request-error - [工作进程13876] TypeError: Cannot read property 'toString' of undefined
+    at module.exports (D:\Users\server-demo\member\router\user\login.js:8:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-23T14:00:08.306] [ERROR] request-error - [工作进程7512] TypeError: Cannot read property 'toString' of undefined
+    at module.exports (D:\Users\server-demo\member\router\user\login.js:8:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-23T14:05:45.656] [ERROR] request-error - [工作进程4264] TypeError: Cannot read property 'toString' of undefined
+    at module.exports (D:\Users\server-demo\member\router\user\login.js:9:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-23T14:06:26.167] [ERROR] request-error - [工作进程22372] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T14:06:32.744] [ERROR] request-error - [工作进程22372] TypeError: Cannot read property 'toString' of undefined
+    at module.exports (D:\Users\server-demo\member\router\user\login.js:9:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-23T14:07:47.129] [ERROR] request-error - [工作进程7352] TypeError: Cannot read property 'toString' of undefined
+    at module.exports (D:\Users\server-demo\member\router\user\login.js:9:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-23T15:09:47.449] [ERROR] request-error - [工作进程29208] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T17:11:44.489] [ERROR] request-error - [工作进程31628] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T17:12:03.474] [ERROR] request-error - [工作进程31628] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T17:14:20.723] [ERROR] request-error - [工作进程24344] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T19:54:18.819] [ERROR] request-error - [工作进程32784] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-23T19:54:19.896] [ERROR] request-error - [工作进程32784] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)

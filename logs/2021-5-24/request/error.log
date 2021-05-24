@@ -1,0 +1,460 @@
+[2021-05-24T12:44:50.912] [ERROR] request-error - [工作进程30168] ReferenceError: result is not defined
+    at module.exports (D:\Users\server-demo\member\router\hasToken.js:6:13)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T12:45:03.844] [ERROR] request-error - [工作进程30168] ReferenceError: result is not defined
+    at module.exports (D:\Users\server-demo\member\router\hasToken.js:6:13)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T12:45:47.579] [ERROR] request-error - [工作进程39080] ReferenceError: result is not defined
+    at module.exports (D:\Users\server-demo\member\router\hasToken.js:6:13)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T12:45:59.012] [ERROR] request-error - [工作进程39080] ReferenceError: result is not defined
+    at module.exports (D:\Users\server-demo\member\router\hasToken.js:6:13)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T12:48:28.192] [ERROR] request-error - [工作进程39312] ReferenceError: result is not defined
+    at module.exports (D:\Users\server-demo\member\router\hasToken.js:7:13)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:8:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T12:50:49.831] [ERROR] request-error - [工作进程41860] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T12:50:58.188] [ERROR] request-error - [工作进程41860] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T13:36:56.089] [ERROR] request-error - [工作进程32656] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T13:41:08.235] [ERROR] request-error - [工作进程40656] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:01:42.113] [ERROR] request-error - [工作进程42084] TypeError: Cannot read property 'replace' of undefined
+    at D:\Users\server-demo\member\module\mysql.js:5:23
+    at Array.forEach (<anonymous>)
+    at escape (D:\Users\server-demo\member\module\mysql.js:4:19)
+    at module.exports (D:\Users\server-demo\member\router\user\queryUserName.js:6:23)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+[2021-05-24T15:02:14.351] [ERROR] request-error - [工作进程42084] TypeError: Cannot read property 'replace' of undefined
+    at D:\Users\server-demo\member\module\mysql.js:5:23
+    at Array.forEach (<anonymous>)
+    at escape (D:\Users\server-demo\member\module\mysql.js:4:19)
+    at module.exports (D:\Users\server-demo\member\router\user\queryUserName.js:6:23)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+[2021-05-24T15:34:28.957] [ERROR] request-error - [工作进程40120] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:34:32.735] [ERROR] request-error - [工作进程40120] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:34:33.210] [ERROR] request-error - [工作进程40120] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:44:48.506] [ERROR] request-error - [工作进程43416] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:44:49.682] [ERROR] request-error - [工作进程43416] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:44:49.758] [ERROR] request-error - [工作进程43416] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:44:49.800] [ERROR] request-error - [工作进程43416] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:44:49.852] [ERROR] request-error - [工作进程43416] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:44:49.890] [ERROR] request-error - [工作进程43416] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:44:50.768] [ERROR] request-error - [工作进程43416] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:46:32.721] [ERROR] request-error - [工作进程31380] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:46:34.591] [ERROR] request-error - [工作进程31380] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:47:23.736] [ERROR] request-error - [工作进程16332] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:47:24.809] [ERROR] request-error - [工作进程16332] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:47:24.870] [ERROR] request-error - [工作进程16332] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:47:25.544] [ERROR] request-error - [工作进程16332] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:5:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:48:59.654] [ERROR] request-error - [工作进程41048] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:01.500] [ERROR] request-error - [工作进程41048] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:01.552] [ERROR] request-error - [工作进程41048] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:01.610] [ERROR] request-error - [工作进程41048] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:01.680] [ERROR] request-error - [工作进程41048] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:01.755] [ERROR] request-error - [工作进程41048] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:08.167] [ERROR] request-error - [工作进程41048] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:08.189] [ERROR] request-error - [工作进程41048] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:09.455] [ERROR] request-error - [工作进程41048] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:36.334] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:37.739] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:37.791] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:37.834] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:37.892] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:37.982] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:38.378] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:38.418] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:39.703] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:40.164] [ERROR] request-error - [工作进程43576] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T15:49:47.050] [ERROR] request-error - [工作进程43576] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:47.105] [ERROR] request-error - [工作进程43576] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:50.586] [ERROR] request-error - [工作进程43576] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:50.653] [ERROR] request-error - [工作进程43576] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:50.741] [ERROR] request-error - [工作进程43576] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:50.818] [ERROR] request-error - [工作进程43576] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:50.885] [ERROR] request-error - [工作进程43576] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:49:52.364] [ERROR] request-error - [工作进程43576] ReferenceError: path is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:6:20)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\log.js:10:9
+[2021-05-24T15:56:54.766] [ERROR] request-error - [工作进程33640] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
