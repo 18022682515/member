@@ -33,3 +33,37 @@
 [2021-05-24T15:56:50.885] [INFO] app-info - [工作进程33640] 启动
 [2021-05-24T15:58:39.222] [INFO] app-info - [工作进程41400] 启动
 [2021-05-24T15:58:46.364] [INFO] app-info - [工作进程33424] 启动
+[2021-05-24T16:32:04.736] [INFO] app-info - [工作进程20224] 启动
+[2021-05-24T16:32:09.186] [ERROR] request-error - [工作进程20224] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T16:32:09.195] [ERROR] request-error - [工作进程20224] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T16:32:09.197] [ERROR] request-error - [工作进程20224] TypeError: Reflect.get called on non-object
+    at Object.get (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:15:20
+    at new Promise (<anonymous>)
+    at Session.get (D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session\getSession.js:14:10)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\setToken.js:5:36
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\session.js:24:10
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
