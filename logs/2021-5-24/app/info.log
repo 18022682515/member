@@ -67,3 +67,6 @@
     at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
     at D:\Users\server-demo\member\node_modules\_yu-server@1.2.1@yu-server\worker\middleware\catchError.js:3:15
     at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+[2021-05-24T18:28:28.258] [INFO] app-info - [工作进程41132] 启动
+[2021-05-24T18:58:16.133] [INFO] app-info - [工作进程24388] 启动
+[2021-05-24T18:59:09.357] [INFO] app-info - [工作进程28480] 启动
