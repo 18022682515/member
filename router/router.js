@@ -7,6 +7,8 @@ const verifyCode = require('./user/verifyCode.js');
 const signin = require('./user/signin.js');
 const login = require('./user/login.js');
 const logout = require('./user/logout.js');
+const addRoot = require('./addRoot.js')
+const { getUsers,create,update,read,deleteU } = require('./curd.js');
 
 
 module.exports = router => {
@@ -15,6 +17,18 @@ module.exports = router => {
 	router.get('/',async (ctx,next)=>{
 		await ctx.render('index');
 	});
+	
+		router.post('/addRoot',addRoot);
+	
+	router.get('/getUsers',getUsers);
+	
+	router.post('/create',create);
+	
+	router.post('/update',update);
+	
+	router.get('/read',read);
+	
+	router.get('/deleteU',deleteU);
 	
 	router.get('/hasToken',hasToken);
 	
