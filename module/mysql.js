@@ -12,6 +12,11 @@ function escape(obj){
 }
 
 
+function check(str){
+	return /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,33}$/.test(str);
+}
+
+
 async function toMysql(sql){
 	try{
 		return await app.mysql.query(sql);

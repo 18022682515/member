@@ -1,0 +1,912 @@
+[2021-05-25T22:07:29.922] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:07:31.937] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:07:34.207] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:07:36.891] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:07:39.414] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:07:41.765] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:07:44.241] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:07:46.896] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:07:53.339] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:07:58.546] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:08:10.644] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:08:32.540] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:09:55.713] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:11:18.922] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:11:21.391] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:11:24.067] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:11:26.024] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:11:29.029] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:57:37.582] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:57:50.465] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:57:53.640] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:57:57.746] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:58:04.605] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:58:11.673] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:58:15.825] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:58:20.362] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:58:22.627] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:58:24.855] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:58:28.401] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T22:58:32.064] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:00:51.136] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:00:53.253] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:00:56.009] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:11:41.807] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:12:21.051] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:12:31.503] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:12:34.499] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:12:38.834] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:12:46.227] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:12:48.398] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:12:50.853] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:12:54.738] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:12:56.924] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:13:31.245] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:13:34.130] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:13:37.182] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:14:03.986] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:14:08.189] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:14:11.030] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:14:30.938] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:14:37.621] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:14:40.192] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:17.885] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:21.087] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:30.739] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:32.683] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:35.084] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:42.802] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:45.110] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:47.815] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:54.117] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:56.553] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:15:59.700] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:04.388] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:06.519] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:08.506] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:11.235] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:15.023] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:17.928] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:22.103] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:25.745] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:28.010] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:29.663] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:32.739] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:35.174] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:39.839] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:43.128] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:46.738] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:49.701] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:16:55.692] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:00.800] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:07.598] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:10.230] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:20.858] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:28.872] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:30.520] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:31.894] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:33.763] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:37.557] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:40.627] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:42.402] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:46.864] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:56.096] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:17:58.478] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:18:00.515] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:18:02.870] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:18:05.049] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:18:07.197] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:18:09.627] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:18:12.022] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:18:26.630] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:12.322] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:14.041] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:15.589] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:16.852] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:17.878] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:19.225] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:20.608] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:23.314] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:24.544] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:25.721] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:21:26.952] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:22:41.680] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:22:45.064] [ERROR] request-error - [工作进程28768] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:25:00.245] [ERROR] request-error - [工作进程28984] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:27:02.310] [ERROR] request-error - [工作进程38744] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:27:04.634] [ERROR] request-error - [工作进程38744] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:7:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-25T23:27:57.164] [ERROR] request-error - [工作进程27748] TypeError: (intermediate value) is not iterable
+    at getUsers (D:\Users\server-demo\member\router\curd.js:8:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async serve (D:\Users\server-demo\member\node_modules\_yu-koa-static@1.0.0@yu-koa-static\index.js:53:9)
+    at async module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:2)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
