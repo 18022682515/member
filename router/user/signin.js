@@ -4,7 +4,6 @@ const { escape,toMysql } = require('../../module/mysql.js');
 module.exports = async function(ctx,next){
 	const body = await signinFilter(ctx);
 	const verifyCode = await ctx.session.get('verifyCode');
-	console.log(body,verifyCode)
 	if(body && body.verifyCode===verifyCode){
 		const sql = `insert into users(username,password) values(${body.username},${body.password})`;
 		const result = await toMysql(sql);
