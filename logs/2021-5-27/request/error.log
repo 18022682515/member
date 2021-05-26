@@ -1,0 +1,54 @@
+[2021-05-27T03:16:04.504] [ERROR] request-error - [工作进程2260] ReferenceError: method is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\cors.js:13:22)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:8)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-27T03:16:04.874] [ERROR] request-error - [工作进程2260] ReferenceError: method is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\cors.js:13:22)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:8)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-27T03:16:28.768] [ERROR] request-error - [工作进程32408] ReferenceError: method is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\cors.js:13:22)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:8)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-27T03:16:29.148] [ERROR] request-error - [工作进程32408] ReferenceError: method is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\cors.js:13:22)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:8)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-27T03:16:55.703] [ERROR] request-error - [工作进程32408] ReferenceError: method is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\cors.js:13:22)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:8)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9
+[2021-05-27T03:16:55.705] [ERROR] request-error - [工作进程32408] ReferenceError: method is not defined
+    at module.exports (D:\Users\server-demo\member\middleware\cors.js:13:22)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at module.exports (D:\Users\server-demo\member\middleware\favicon.js:10:8)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_koa-body@4.2.0@koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\catchError.js:3:9
+    at async D:\Users\server-demo\member\node_modules\_yu-server@1.2.2@yu-server\worker\middleware\log.js:10:9

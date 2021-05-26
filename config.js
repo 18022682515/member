@@ -11,7 +11,7 @@ module.exports = {
 	keys: ['1234567wertyasdfg'], //cookies的密匙
 	
 	
-	middlewares: [ 'favicon' ], //['middleA','middleB',……], 中间件的文件名加入数组，从0索引开始按顺序执行
+	middlewares: [ 'favicon','cors' ], //['middleA','middleB',……], 中间件的文件名加入数组，从0索引开始按顺序执行
 
 	static: 'static', //静态文件的目录
 

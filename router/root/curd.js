@@ -1,4 +1,4 @@
-const { escape,toMysql } = require('../module/mysql.js');
+const { escape,toMysql } = require('../../module/mysql.js');
 
 async function getUsers(ctx,next){
 	const pageCode = parseInt(ctx.query.pageCode) || 0;
@@ -13,7 +13,7 @@ exports.create = async function(ctx,next){
 	const { username,password } = escape(ctx.request.body);
 	const sql = `insert into users(username,password) values(${username},${password})`;
 	const result = await toMysql(sql);
-	ctx.body = result;
+	ctx.body = result && result.affectedRows>0 ? { state:true } : { state:false };
 }
 
 
