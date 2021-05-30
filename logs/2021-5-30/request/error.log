@@ -1,0 +1,120 @@
+[2021-05-30T20:56:27.601] [ERROR] request-error - [工作进程13080] Error: node_redis: The EXISTS command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\index.js:850:37)
+    at RedisClient.exists (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\lib\commands.js:46:25)
+    at isRedisKey (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:14:11)
+    at new Promise (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:13:23
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\log.js:10:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32) {
+  command: 'EXISTS',
+  args: [ undefined ]
+}
+[2021-05-30T20:56:37.924] [ERROR] request-error - [工作进程13080] Error: node_redis: The EXISTS command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\index.js:850:37)
+    at RedisClient.exists (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\lib\commands.js:46:25)
+    at isRedisKey (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:14:11)
+    at new Promise (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:13:23
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\log.js:10:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32) {
+  command: 'EXISTS',
+  args: [ undefined ]
+}
+[2021-05-30T20:57:13.992] [ERROR] request-error - [工作进程31444] Error: node_redis: The EXISTS command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\index.js:850:37)
+    at RedisClient.exists (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\lib\commands.js:46:25)
+    at isRedisKey (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:14:11)
+    at new Promise (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:13:23
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\log.js:10:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32) {
+  command: 'EXISTS',
+  args: [ undefined ]
+}
+[2021-05-30T20:59:36.209] [ERROR] request-error - [工作进程6760] Error: node_redis: The EXISTS command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\index.js:850:37)
+    at RedisClient.exists (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\lib\commands.js:46:25)
+    at isRedisKey (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:14:11)
+    at new Promise (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:13:23
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\log.js:10:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32) {
+  command: 'EXISTS',
+  args: [ undefined ]
+}
+[2021-05-30T20:59:53.709] [ERROR] request-error - [工作进程6760] Error: node_redis: The EXISTS command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\index.js:850:37)
+    at RedisClient.exists (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\lib\commands.js:46:25)
+    at isRedisKey (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:14:11)
+    at new Promise (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:13:23
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\log.js:10:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32) {
+  command: 'EXISTS',
+  args: [ undefined ]
+}
+[2021-05-30T21:00:29.311] [ERROR] request-error - [工作进程932] Error: node_redis: The EXISTS command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\index.js:850:37)
+    at RedisClient.exists (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\lib\commands.js:46:25)
+    at isRedisKey (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:14:11)
+    at new Promise (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:13:23
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\log.js:10:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32) {
+  command: 'EXISTS',
+  args: [ undefined ]
+}
+[2021-05-30T21:01:42.418] [ERROR] request-error - [工作进程22896] Error: node_redis: The EXISTS command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\index.js:850:37)
+    at RedisClient.exists (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\lib\commands.js:46:25)
+    at isRedisKey (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:15:11)
+    at new Promise (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:14:23
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\log.js:10:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32) {
+  command: 'EXISTS',
+  args: [ undefined ]
+}
+[2021-05-30T21:02:29.391] [ERROR] request-error - [工作进程25780] Error: node_redis: The EXISTS command contains a invalid argument type of "undefined".
+Only strings, dates and buffers are accepted. Please update your code to use valid argument types.
+    at RedisClient.internal_send_command (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\index.js:850:37)
+    at RedisClient.exists (D:\Users\server-demo\member\node_modules\_redis@3.1.2@redis\lib\commands.js:46:25)
+    at isRedisKey (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:15:11)
+    at new Promise (<anonymous>)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\session.js:14:23
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\catchError.js:3:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\middleware\log.js:10:15
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32) {
+  command: 'EXISTS',
+  args: [ undefined ]
+}

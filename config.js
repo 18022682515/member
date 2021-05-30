@@ -1,14 +1,13 @@
 module.exports = {
-	redis: false,
-	// { //开启redis储存session,不开启设置为redis:false
-	// 	port: 6379,
-	// 	host: "127.0.0.1",
-	// 	family: 4, // 4 (IPv4) or 6 (IPv6)
-	// 	password: "",
-	// 	db: 0
-	// },
+	redis: { //开启redis储存session,不开启设置为redis:false
+		port: 6379,
+		host: "127.0.0.1",
+		family: 4, // 4 (IPv4) or 6 (IPv6)
+		password: "",
+		db: 0
+	},
 
-	keys: ['1234567wertyasdfg'], //cookies的密匙
+	keys: ['1234567wertyasdfg'], //cookies的签名
 	
 	
 	middlewares: [ 'favicon','cors' ], //['middleA','middleB',……], 中间件的文件名加入数组，从0索引开始按顺序执行

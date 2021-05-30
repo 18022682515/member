@@ -1,0 +1,220 @@
+[2021-05-30T21:15:34.057] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at module.exports (D:\Users\server-demo\member\router\user\queryUserName.js:8:23)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:15:40.454] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at signinFilter (D:\Users\server-demo\member\router\user\signin.js:26:23)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:5:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:15:41.876] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at signinFilter (D:\Users\server-demo\member\router\user\signin.js:26:23)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:5:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:15:42.105] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at signinFilter (D:\Users\server-demo\member\router\user\signin.js:26:23)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:5:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:15:42.316] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at signinFilter (D:\Users\server-demo\member\router\user\signin.js:26:23)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:5:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:15:42.536] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at signinFilter (D:\Users\server-demo\member\router\user\signin.js:26:23)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:5:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:15:43.105] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at signinFilter (D:\Users\server-demo\member\router\user\signin.js:26:23)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:5:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:16:13.835] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at signinFilter (D:\Users\server-demo\member\router\user\signin.js:26:23)
+    at module.exports (D:\Users\server-demo\member\router\user\signin.js:5:21) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:16:55.733] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at module.exports (D:\Users\server-demo\member\router\user\queryUserName.js:8:23)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:17:00.397] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at module.exports (D:\Users\server-demo\member\router\user\queryUserName.js:8:23)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2021-05-30T21:17:02.686] [ERROR] app-error - [工作进程16316] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\Users\server-demo\member\node_modules\_mysql@2.18.1@mysql\lib\Pool.js:48:16)
+    at D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:11:9
+    at new Promise (<anonymous>)
+    at Pool.pool.query (D:\Users\server-demo\member\node_modules\_yu-server@1.2.3@yu-server\worker\mysql.js:9:10)
+    at toMysql (D:\Users\server-demo\member\module\mysql.js:22:26)
+    at module.exports (D:\Users\server-demo\member\router\user\queryUserName.js:8:23)
+    at dispatch (D:\Users\server-demo\member\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}

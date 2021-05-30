@@ -7,6 +7,7 @@ module.exports = async function(ctx,next){
 	if(body && body.verifyCode===verifyCode){
 		const sql = `insert into users(username,password) values(${body.username},${body.password})`;
 		const result = await toMysql(sql);
+		
 		if(result.affectedRows>0){
 			await ctx.session.set('token',body.username);
 			await ctx.session.set('username',body.username);
